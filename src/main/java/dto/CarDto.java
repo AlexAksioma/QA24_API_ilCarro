@@ -1,5 +1,6 @@
 package dto;
 
+import dto.enumclasses.Fuel;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
@@ -10,12 +11,14 @@ import java.util.List;
 @Setter
 @Builder
 @ToString
+
 public class CarDto {
     private String serialNumber; //": "string",
     private String manufacture; //": "string",
     private String model; //": "string",
     private String year; //": "string",
     private String fuel; //": "string",
+    //Fuel fuel;
     private int seats; //": 0,
     private String carClass; //": "string",
     private double pricePerDay;//": 0,

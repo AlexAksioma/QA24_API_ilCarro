@@ -25,7 +25,7 @@ public class RegistrationTestsOkhttp implements BaseApi {
     public void registrationPositiveTest(){   ///v1/user/registration/usernamepassword
         int i = new Random().nextInt(1000)+1000;
         RegistrationBodyDto registrationBodyDto = RegistrationBodyDto.builder()
-                .username(i+"baggins_bilbo@mail.com")
+                .username(789+"baggins_bilbo@mail.com")
                 .password("Zxc12345!")
                 .firstName("Bilbo")
                 .lastName("Baggins")
