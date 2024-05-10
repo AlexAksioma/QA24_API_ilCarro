@@ -27,6 +27,7 @@ public class AddNewCarTestsRest extends CarController {
                 .build();
         Assert.assertEquals(statusCodeAddNewCarResponse(car, token), 200);
     }
+
     @Test
     public void addNewCarNegativeTest_emptyFieldSerialNumber(){
         int i = new Random().nextInt(1000) + 1000;
